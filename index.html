@@ -31,12 +31,13 @@
     <!-- <video src="https://www.youtube.com/watch?v=x0cESERAp2M" id="video"> 
         <source src="https://www.youtube.com/watch?v=x0cESERAp2M">
     </video> -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Hv6EMd8dlQk" title="YouTube video player" 
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Hv6EMd8dlQk" title="YouTube video player" 
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen></iframe> 
     
-    <form action="" id="form">
-        <input type="email"  id="email" placeholder="Email">
+    <form action="https://www.freecodecamp.com/email-submit" id="form" method="POST">
+        <input type="email"  id="email" placeholder="Email" name="email">
+        <input type="submit" id="submit" value="Submit">
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
